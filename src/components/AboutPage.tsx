@@ -45,14 +45,14 @@ export default function AboutPage({
       name: "Cathy Orquiola",
       role: "Project Director / Principal Architect",
       bio: "With over 14 years overseeing high-density commercial frameworks and custom brutalist estates, Cathy commands the design-build continuum at Zeke. She holds a Master's in Urban Design from UP and specializes in streamlining workflow mechanics, ensuring spatial plans merge peerlessly with steel structural calculations.",
-      imageUrl: "/assets/images/zeke_team_cathy_1781627011645.jpg",
+      imageUrl: "/images/zeke_team_cathy_1781627011645.jpg",
       specs: ["14+ Yrs Lead Architecture", "BIM Integration Master", "AIA Regional Panelist"]
     },
     {
       name: "Arch. Marcus Zeke",
       role: "Founder / Managing Director",
       bio: "Marcus founded Zeke with a simple, extreme conviction: eliminate contractor friction permanently. Armed with structural engineering and real estate qualifications, lockstep zoning knowledge, and deep capital expertise, he drives Zeke’s unified site formulation and acquisition strategies across Central Luzon.",
-      imageUrl: "/assets/images/zeke_team_marcus_1781627029490.jpg",
+      imageUrl: "/images/zeke_team_marcus_1781627029490.jpg",
       specs: ["Founder & Structural Dir.", "PRC Licensed Broker", "ASTM Metallurgy Advisor"]
     }
   ];
@@ -116,7 +116,7 @@ export default function AboutPage({
       <section id="about-hero" className="relative min-h-[60vh] sm:min-h-[70vh] flex items-center bg-industrial-black text-white overflow-hidden py-20 sm:py-32">
         <div className="absolute inset-0 z-0">
           <img
-            src="/assets/images/zeke_about_hero_1781626949346.jpg"
+            src="/images/zeke_about_hero_1781626949346.jpg"
             alt="Zeke structural detailing"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover opacity-35 object-center"
@@ -266,7 +266,7 @@ export default function AboutPage({
                 <div className="absolute -top-3 -left-3 w-full h-full border-2 border-industrial-black hidden sm:block pointer-events-none transition-transform group-hover:translate-x-1 group-hover:translate-y-1" />
                 <div className="relative bg-industrial-black p-2 shadow-2xl lg:h-full lg:flex lg:flex-col lg:flex-1">
                   <img
-                    src="/assets/images/zeke_about_workflow_1781626977867.jpg"
+                    src="/images/zeke_about_workflow_1781626977867.jpg"
                     alt="Zeke active structural workflow environment"
                     referrerPolicy="no-referrer"
                     className="w-full h-auto lg:h-full object-cover aspect-[4/3] lg:aspect-auto lg:flex-grow filter contrast-105"
@@ -541,7 +541,7 @@ export default function AboutPage({
                 <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-industrial-red hidden sm:block pointer-events-none transition-transform group-hover:translate-x-1 group-hover:translate-y-1" />
                 <div className="relative bg-industrial-black p-2 shadow-2xl lg:h-full lg:flex lg:flex-col lg:flex-1">
                   <img
-                    src="/assets/images/zeke_about_values_1781626995702.jpg"
+                    src="/images/zeke_about_values_1781626995702.jpg"
                     alt="Zeke structural details values"
                     referrerPolicy="no-referrer"
                     className="w-full h-auto lg:h-full object-cover aspect-[3/4] lg:aspect-auto lg:flex-grow filter contrast-105"
@@ -733,7 +733,7 @@ export default function AboutPage({
         {/* Background Image structure with slow black-to-image fade effect */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/assets/images/zeke_hero_1781624709150.jpg"
+            src="/images/zeke_hero_1781624709150.jpg"
             alt="Zeke engineering structural frame"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center opacity-30 grayscale"

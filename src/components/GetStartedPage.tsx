@@ -114,7 +114,7 @@ export default function GetStartedPage({
       <section id="get-started-hero" className="relative min-h-[60vh] sm:min-h-[70vh] flex items-center bg-industrial-black text-white overflow-hidden py-20 sm:py-32">
         <div className="absolute inset-0 z-0">
           <img
-            src="/assets/images/zeke_solution_1781624797540.jpg"
+            src="/images/zeke_solution_1781624797540.jpg"
             alt="Zeke solution construction design"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover opacity-35 object-center"

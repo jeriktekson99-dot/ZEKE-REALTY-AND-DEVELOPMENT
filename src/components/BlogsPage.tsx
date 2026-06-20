@@ -71,7 +71,7 @@ export default function BlogsPage({
     date: "May 17, 2026",
     author: "Engr. Marcus De Vega",
     readTime: "8 MIN READ",
-    imageUrl: "/assets/images/zeke_about_workflow_1781626977867.jpg"
+    imageUrl: "/images/zeke_about_workflow_1781626977867.jpg"
   };
 
   // 12 substantive, industrial-focused articles matching the 4-row by 3-column requirement
@@ -85,7 +85,7 @@ export default function BlogsPage({
       date: "May 12, 2026",
       author: "Cathy Santos, MBA",
       readTime: "6 MIN READ",
-      imageUrl: "/assets/images/zeke_hero_1781624709150.jpg"
+      imageUrl: "/images/zeke_hero_1781624709150.jpg"
     },
     {
       id: "post-2",
@@ -96,7 +96,7 @@ export default function BlogsPage({
       date: "April 28, 2026",
       author: "Engr. Marcus De Vega",
       readTime: "10 MIN READ",
-      imageUrl: "/assets/images/zeke_project_one_1781624725520.jpg"
+      imageUrl: "/images/zeke_project_one_1781624725520.jpg"
     },
     {
       id: "post-3",
@@ -107,7 +107,7 @@ export default function BlogsPage({
       date: "April 15, 2026",
       author: "Engr. Alejandro Cruz",
       readTime: "7 MIN READ",
-      imageUrl: "/assets/images/zeke_project_two_1781624742258.jpg"
+      imageUrl: "/images/zeke_project_two_1781624742258.jpg"
     },
     {
       id: "post-4",
@@ -118,7 +118,7 @@ export default function BlogsPage({
       date: "March 30, 2026",
       author: "Engr. Marcus De Vega",
       readTime: "5 MIN READ",
-      imageUrl: "/assets/images/zeke_project_three_1781624759261.jpg"
+      imageUrl: "/images/zeke_project_three_1781624759261.jpg"
     },
     {
       id: "post-5",
@@ -129,7 +129,7 @@ export default function BlogsPage({
       date: "March 18, 2026",
       author: "Dr. Roberto Gomez, Geologist",
       readTime: "9 MIN READ",
-      imageUrl: "/assets/images/zeke_about_hero_1781626949346.jpg"
+      imageUrl: "/images/zeke_about_hero_1781626949346.jpg"
     },
     {
       id: "post-6",
@@ -140,7 +140,7 @@ export default function BlogsPage({
       date: "February 24, 2026",
       author: "Cathy Santos, MBA",
       readTime: "6 MIN READ",
-      imageUrl: "/assets/images/zeke_about_values_1781626995702.jpg"
+      imageUrl: "/images/zeke_about_values_1781626995702.jpg"
     },
     {
       id: "post-7",
@@ -151,7 +151,7 @@ export default function BlogsPage({
       date: "February 08, 2026",
       author: "Engr. Alejandro Cruz",
       readTime: "8 MIN READ",
-      imageUrl: "/assets/images/zeke_solution_1781624797540.jpg"
+      imageUrl: "/images/zeke_solution_1781624797540.jpg"
     },
     {
       id: "post-8",
@@ -162,7 +162,7 @@ export default function BlogsPage({
       date: "January 22, 2026",
       author: "Atty. Liza Alonte, Land Specialist",
       readTime: "11 MIN READ",
-      imageUrl: "/assets/images/zeke_problem_1781624780339.jpg"
+      imageUrl: "/images/zeke_problem_1781624780339.jpg"
     },
     {
       id: "post-9",
@@ -173,7 +173,7 @@ export default function BlogsPage({
       date: "January 04, 2026",
       author: "Dr. Roberto Gomez, Geologist",
       readTime: "9 MIN READ",
-      imageUrl: "/assets/images/zeke_team_marcus_1781627029490.jpg"
+      imageUrl: "/images/zeke_team_marcus_1781627029490.jpg"
     },
     {
       id: "post-10",
@@ -184,7 +184,7 @@ export default function BlogsPage({
       date: "December 15, 2025",
       author: "Engr. Marcus De Vega",
       readTime: "6 MIN READ",
-      imageUrl: "/assets/images/zeke_team_cathy_1781627011645.jpg"
+      imageUrl: "/images/zeke_team_cathy_1781627011645.jpg"
     },
     {
       id: "post-11",
@@ -195,7 +195,7 @@ export default function BlogsPage({
       date: "December 02, 2025",
       author: "Dr. Roberto Gomez, Geologist",
       readTime: "8 MIN READ",
-      imageUrl: "/assets/images/zeke_project_one_1781624725520.jpg"
+      imageUrl: "/images/zeke_project_one_1781624725520.jpg"
     },
     {
       id: "post-12",
@@ -206,7 +206,7 @@ export default function BlogsPage({
       date: "November 19, 2025",
       author: "Atty. Liza Alonte, Land Specialist",
       readTime: "10 MIN READ",
-      imageUrl: "/assets/images/zeke_project_three_1781624759261.jpg"
+      imageUrl: "/images/zeke_project_three_1781624759261.jpg"
     }
   ];
 
@@ -271,7 +271,7 @@ export default function BlogsPage({
       <section id="blogs-hero" className="relative min-h-[60vh] sm:min-h-[70vh] flex items-center bg-industrial-black text-white overflow-hidden py-20 sm:py-32">
         <div className="absolute inset-0 z-0">
           <img
-            src="/assets/images/zeke_solution_1781624797540.jpg"
+            src="/images/zeke_solution_1781624797540.jpg"
             alt="Structural steel and modern architectural skeleton"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover opacity-40 object-center"
@@ -645,7 +645,7 @@ export default function BlogsPage({
               {/* Right landscape photo holder */}
               <div className="sm:col-span-5 relative min-h-[200px] bg-stone-100">
                 <img
-                  src="/assets/images/zeke_about_workflow_1781626977867.jpg"
+                  src="/images/zeke_about_workflow_1781626977867.jpg"
                   alt="Zeke workflow public relations communications"
                   referrerPolicy="no-referrer"
                   className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-101.5 transition-transform duration-500"
@@ -686,7 +686,7 @@ export default function BlogsPage({
               {/* Right landscape photo holder */}
               <div className="sm:col-span-5 relative min-h-[200px] bg-stone-100">
                 <img
-                  src="/assets/images/zeke_about_values_1781626995702.jpg"
+                  src="/images/zeke_about_values_1781626995702.jpg"
                   alt="Zeke industrial structural metrics corporate stakeholder"
                   referrerPolicy="no-referrer"
                   className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-101.5 transition-transform duration-500"
@@ -703,7 +703,7 @@ export default function BlogsPage({
         {/* Background Image structure with slow black-to-image fade effect */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/assets/images/zeke_hero_1781624709150.jpg"
+            src="/images/zeke_hero_1781624709150.jpg"
             alt="Zeke engineering structural frame"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center opacity-30 grayscale"

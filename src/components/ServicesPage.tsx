@@ -306,7 +306,7 @@ export default function ServicesPage({
       <section id="services-hero" className="relative min-h-[60vh] sm:min-h-[70vh] flex items-center bg-industrial-black text-white overflow-hidden py-20 sm:py-32">
         <div className="absolute inset-0 z-0">
           <img
-            src="/assets/images/zeke_about_workflow_1781626977867.jpg"
+            src="/images/zeke_about_workflow_1781626977867.jpg"
             alt="Zeke workflow master construction site"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover opacity-35 object-center"
@@ -508,7 +508,7 @@ export default function ServicesPage({
         {/* Background Image structure with slow black-to-image fade effect */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/assets/images/zeke_hero_1781624709150.jpg"
+            src="/images/zeke_hero_1781624709150.jpg"
             alt="Zeke engineering structural frame"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center opacity-30 grayscale"
