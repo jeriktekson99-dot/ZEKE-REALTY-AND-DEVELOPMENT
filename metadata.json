@@ -1,0 +1,8 @@
+{
+  "name": "OFFICIAL: Zeke Realty and Construction Development V1",
+  "description": "A bold, modern, and industrial website homepage for Zeke Realty and Construction Development, providing a high-impact responsive experience for their integrated planning, construction, renovations, and realty services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

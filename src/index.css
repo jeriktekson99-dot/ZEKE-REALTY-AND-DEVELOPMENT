@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-industrial-red: #C8102E;
+  --color-industrial-black: #111111;
+  --color-industrial-gray: #1E1F21;
+  --color-industrial-light: #F4F5F6;
+  --font-display: "Montserrat", "Inter", sans-serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@utility skew-angle {
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+}
+
+@utility skew-angle-reverse {
+  clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+@utility industrial-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+}
+
+@utility industrial-grid-dark {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-industrial-black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-industrial-red);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a00b21;
+}
+
+/* High Contrast Adjustments */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-industrial-light);
+  color: var(--color-industrial-black);
+  font-family: var(--font-sans);
+}
