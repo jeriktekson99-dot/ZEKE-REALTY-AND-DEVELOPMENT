@@ -43,12 +43,12 @@ export default function ServiceDetailPage({
 
   // High-Resolution Local Assets
   const images = {
-    blueprintBg: "/images/zeke_about_hero_1781626949346.jpg",
-    buildInProgress: "/images/zeke_project_one_1781624725520.jpg",
-    rawFraming: "/images/zeke_project_two_1781624742258.jpg",
-    technicalDesign: "/images/zeke_about_workflow_1781626977867.jpg",
-    projectDeployment: "/images/zeke_project_three_1781624759261.jpg",
-    ctaBg: "/images/zeke_solution_1781624797540.jpg"
+    blueprintBg: "/assets/images/zeke_about_hero_1781626949346.jpg",
+    buildInProgress: "/assets/images/zeke_project_one_1781624725520.jpg",
+    rawFraming: "/assets/images/zeke_project_two_1781624742258.jpg",
+    technicalDesign: "/assets/images/zeke_about_workflow_1781626977867.jpg",
+    projectDeployment: "/assets/images/zeke_project_three_1781624759261.jpg",
+    ctaBg: "/assets/images/zeke_solution_1781624797540.jpg"
   };
 
   // Featured projects grid data (3 columns) matching the Related Articles structure
@@ -57,21 +57,21 @@ export default function ServiceDetailPage({
       id: "res-highrise",
       title: "Solace Heights Tower B",
       category: "Residential",
-      imageUrl: "/images/zeke_project_one_1781624725520.jpg",
+      imageUrl: "/assets/images/zeke_project_one_1781624725520.jpg",
       description: "A premium structural footprint emphasizing state-of-the-art seismic shear panels."
     },
     {
       id: "com-hq",
       title: "Apex Industrial Complex",
       category: "Commercial",
-      imageUrl: "/images/zeke_project_two_1781624742258.jpg",
+      imageUrl: "/assets/images/zeke_project_two_1781624742258.jpg",
       description: "Direct-to-mill structural steel frameworks engineered for heavy loading layouts."
     },
     {
       id: "lnd-corp",
       title: "Cavitex Regional Logistics Hub",
       category: "Land Development",
-      imageUrl: "/images/zeke_project_three_1781624759261.jpg",
+      imageUrl: "/assets/images/zeke_project_three_1781624759261.jpg",
       description: "Rigorous grade civil excavations and geotechnical pre-stretching sequences."
     }
   ];
@@ -531,7 +531,7 @@ export default function ServiceDetailPage({
         {/* Background Image structure with slow black-to-image fade effect */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/zeke_hero_1781624709150.jpg"
+            src="/assets/images/zeke_hero_1781624709150.jpg"
             alt="Zeke engineering structural frame"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center opacity-30 grayscale"

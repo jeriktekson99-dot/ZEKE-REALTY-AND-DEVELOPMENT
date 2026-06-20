@@ -77,7 +77,7 @@ export default function Hero() {
       {/* Background Graphic Overlay with our high-end generated asset */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/zeke_hero_1781624709150.jpg"
+          src="/assets/images/zeke_hero_1781624709150.jpg"
           alt="Zeke Realty Modern Steel Glass Construction"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover opacity-35 object-center scale-105"

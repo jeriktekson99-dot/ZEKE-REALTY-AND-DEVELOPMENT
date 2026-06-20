@@ -56,7 +56,7 @@ export default function PortfolioPage({
       locationKey: "Cavite",
       locationDesc: "Tagaytay, Cavite",
       year: "2024",
-      imageUrl: "/images/zeke_project_one_1781624725520.jpg",
+      imageUrl: "/assets/images/zeke_project_one_1781624725520.jpg",
       description: "A premium structural duplex engineered to withstand seismic Zone 4 lateral acceleration and dense coastal winds. Features beautiful textured raw concrete walls contrasted with custom industrial crimson accents.",
       specs: [
         { label: "Gross Floor Area", value: "450 sqm" },
@@ -72,7 +72,7 @@ export default function PortfolioPage({
       locationKey: "Metro Manila",
       locationDesc: "Quezon City, Metro Manila",
       year: "2025",
-      imageUrl: "/images/zeke_project_two_1781624742258.jpg",
+      imageUrl: "/assets/images/zeke_project_two_1781624742258.jpg",
       description: "Triple-tier retail and corporate headquarters featuring premium exposed structural girders, acoustic-isolated partition slabs, and highly efficient dynamic heat extraction systems.",
       specs: [
         { label: "Gross Floor Area", value: "1,200 sqm" },
@@ -88,7 +88,7 @@ export default function PortfolioPage({
       locationKey: "Rizal",
       locationDesc: "Antipolo, Rizal",
       year: "2025",
-      imageUrl: "/images/zeke_about_workflow_1781626977867.jpg",
+      imageUrl: "/assets/images/zeke_about_workflow_1781626977867.jpg",
       description: "Mass excavation, geodetic control mapping, and reinforced hillside structural retaining systems. We stabilized complex clayey-silt vectors to prepare a premium high-yield subdivision layout.",
       specs: [
         { label: "Development Area", value: "12 Hectares" },
@@ -104,7 +104,7 @@ export default function PortfolioPage({
       locationKey: "Laguna",
       locationDesc: "Santa Rosa, Laguna",
       year: "2024",
-      imageUrl: "/images/zeke_hero_1781624709150.jpg",
+      imageUrl: "/assets/images/zeke_hero_1781624709150.jpg",
       description: "Modern preservation conversion of an old electronic storage plant into multi-functional creative headquarters, retaining raw masonry elements while inserting rigid high-tensile steel expansion tiers.",
       specs: [
         { label: "Converted Area", value: "780 sqm" },
@@ -120,7 +120,7 @@ export default function PortfolioPage({
       locationKey: "Metro Manila",
       locationDesc: "Makati, Metro Manila",
       year: "2026",
-      imageUrl: "/images/zeke_about_values_1781626995702.jpg",
+      imageUrl: "/assets/images/zeke_about_values_1781626995702.jpg",
       description: "High-load warehouse and logistical integration setup built under tight city municipal deadlines. Deployed proprietary rapid concrete formwork structures to reduce timeline friction.",
       specs: [
         { label: "Usable Floor Space", value: "2,200 sqm" },
@@ -136,7 +136,7 @@ export default function PortfolioPage({
       locationKey: "Cavite",
       locationDesc: "Silang, Cavite",
       year: "2025",
-      imageUrl: "/images/zeke_about_hero_1781626949346.jpg",
+      imageUrl: "/assets/images/zeke_about_hero_1781626949346.jpg",
       description: "Engineering addition of a complete second storey onto a legacy framework using premium light-weight steel framing, structural chemical anchoring systems, and elastomeric expansion joints.",
       specs: [
         { label: "Added Floor Area", value: "185 sqm" },
@@ -152,7 +152,7 @@ export default function PortfolioPage({
       locationKey: "Metro Manila",
       locationDesc: "Pasig, Metro Manila",
       year: "2026",
-      imageUrl: "/images/zeke_solution_1781624797540.jpg",
+      imageUrl: "/assets/images/zeke_solution_1781624797540.jpg",
       description: "Structural overhaul of a commercial block. Replaced aging partition columns with high-contrast steel columns, modernizing the layout into spacious open planning zones.",
       specs: [
         { label: "Regenerated Scope", value: "650 sqm" },
@@ -168,7 +168,7 @@ export default function PortfolioPage({
       locationKey: "Laguna",
       locationDesc: "Calamba, Laguna",
       year: "2025",
-      imageUrl: "/images/zeke_project_three_1781624759261.jpg",
+      imageUrl: "/assets/images/zeke_project_three_1781624759261.jpg",
       description: "Strategic masterplanning, roadway grading, subgrade excavation, and structural concrete utility channels for high-end subdivision expansion in highly active Laguna clay soils.",
       specs: [
         { label: "Total Length Grade", value: "3.2 Kilometers" },
@@ -234,7 +234,7 @@ export default function PortfolioPage({
       <section id="portfolio-hero" className="relative min-h-[60vh] sm:min-h-[70vh] flex items-center bg-industrial-black text-white overflow-hidden py-20 sm:py-32">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/zeke_project_two_1781624742258.jpg"
+            src="/assets/images/zeke_project_two_1781624742258.jpg"
             alt="Zeke structural commercial assembly project"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover opacity-35 object-center"
@@ -564,7 +564,7 @@ export default function PortfolioPage({
         {/* Background Image structure with slow black-to-image fade effect */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/zeke_hero_1781624709150.jpg"
+            src="/assets/images/zeke_hero_1781624709150.jpg"
             alt="Zeke engineering structural frame"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center opacity-30 grayscale"
