@@ -52,7 +52,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     category: "Residential Architecture",
     location: "Tagaytay, Cavite",
     year: "2024",
-    imageUrl: "/src/assets/images/zeke_project_one_1781624725520.jpg",
+    imageUrl: "/assets/images/zeke_project_one_1781624725520.jpg",
     details: "An award-winning concrete and glass masterpiece integrated with a lush cliffside view, utilizing advanced thermal insulation and brutalist styling lines.",
     specs: [
       { label: "Total Area", value: "450 sqm" },
@@ -67,7 +67,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     category: "Commercial Infrastructure",
     location: "Quezon City, Metro Manila",
     year: "2025",
-    imageUrl: "/src/assets/images/zeke_project_two_1781624742258.jpg",
+    imageUrl: "/assets/images/zeke_project_two_1781624742258.jpg",
     details: "A triple-tier commercial space constructed with visible high-tensile steel frames and red powder-coated structural accents to stand out in the busy business district.",
     specs: [
       { label: "Gross Floor Area", value: "1,200 sqm" },
@@ -82,7 +82,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     category: "Realty & Development",
     location: "Alabang, Muntinlupa",
     year: "2026",
-    imageUrl: "/src/assets/images/zeke_project_three_1781624759261.jpg",
+    imageUrl: "/assets/images/zeke_project_three_1781624759261.jpg",
     details: "A high-end residential complex designed for multi-generational luxury living, with self-contained solar backup panels and integrated safety structures.",
     specs: [
       { label: "Lot Area", value: "380 sqm x 2" },
@@ -128,7 +128,7 @@ export const BLOGS_DATA: BlogPostItem[] = [
     title: "Integrated Design-Build: The End of Fragmented Contractor Nightmares",
     excerpt: "Why separating design, land acquisition, and construction leads to budget overruns - and how our integrated blueprint solves it from day one.",
     author: "Zeke Dev Team",
-    imageUrl: "/src/assets/images/zeke_solution_1781624797540.jpg",
+    imageUrl: "/assets/images/zeke_solution_1781624797540.jpg",
     content: "For decades, property owners have suffered under the fragmented traditional approach: hiring an architect, bidding to separate general contractors, chasing land title specialists, and arguing over scope creep. We explore why Zeke's integrated strategy—combining design, development, and realty and logistics legal support under one single roof—redefines efficiency, guarantees structural speed, and keeps budgets locked down by using unified digital planning files."
   },
   {
@@ -138,7 +138,7 @@ export const BLOGS_DATA: BlogPostItem[] = [
     title: "Selecting High-Yield Land in Calabarzon: A Realty Investor's Playbook",
     excerpt: "Discover the key factors driving high-yielding property values and structural soil suitability in Tagaytay, Cavite, and Batangas.",
     author: "Zeke Legal Division",
-    imageUrl: "/src/assets/images/zeke_project_one_1781624725520.jpg",
+    imageUrl: "/assets/images/zeke_project_one_1781624725520.jpg",
     content: "Calabarzon is currently the fastest-growing investment hub just outside Metro Manila. However, building on rolling hills has unique zoning laws, volcanic safety requirements, and soil compaction thresholds. Our legal and realty division breaks down what to look for when inspecting agricultural-to-residential land conversions, resolving easement conflicts, and securing premium cliffside real estate without hidden transactional and municipal fees."
   },
   {
@@ -148,7 +148,7 @@ export const BLOGS_DATA: BlogPostItem[] = [
     title: "Brutalist vs Industrial Modernism: Aesthetics or Pure Engineering?",
     excerpt: "An inside look at how raw materials, heavy steel columns, and bold crimson framing provide high-durability modernism that lasts.",
     author: "Arch. Marcus Zeke",
-    imageUrl: "/src/assets/images/zeke_hero_1781624709150.jpg",
+    imageUrl: "/assets/images/zeke_hero_1781624709150.jpg",
     content: "Why are raw concrete, dark steel, and sharp red accents more than just an aesthetic trend? Deep dive into the architectural mechanics of exposed structural steel beams, high-bearing concrete walls of industrial developments, and how brutalist geometries optimize wind-load distribution and lower cooling expenses through advanced material science and mass-wall physics."
   }
 ];

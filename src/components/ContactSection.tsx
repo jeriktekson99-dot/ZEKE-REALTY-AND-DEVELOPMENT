@@ -11,7 +11,7 @@ export default function ContactSection({ onNavigate, onInquire }: ContactSection
       {/* Background Image structure with slow black-to-image fade effect */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/zeke_hero_1781624709150.jpg"
+          src="/assets/images/zeke_hero_1781624709150.jpg"
           alt="Zeke engineering structural frame"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center opacity-30 grayscale"

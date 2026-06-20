@@ -55,15 +55,15 @@ export default function PortfolioDetailPage({
   // Gallery Thumbnails using various high-resolution assets from our assets list
   const galleryThumbnails = [
     project.imageUrl,
-    "/src/assets/images/zeke_project_one_1781624725520.jpg",
-    "/src/assets/images/zeke_project_two_1781624742258.jpg",
-    "/src/assets/images/zeke_project_three_1781624759261.jpg",
-    "/src/assets/images/zeke_about_workflow_1781626977867.jpg",
+    "/assets/images/zeke_project_one_1781624725520.jpg",
+    "/assets/images/zeke_project_two_1781624742258.jpg",
+    "/assets/images/zeke_project_three_1781624759261.jpg",
+    "/assets/images/zeke_about_workflow_1781626977867.jpg",
   ].filter((url, index, self) => self.indexOf(url) === index).slice(0, 4);
 
   // Pad to ensure exactly 4 thumbnails if there are duplicates or fewer items
   while (galleryThumbnails.length < 4) {
-    galleryThumbnails.push("/src/assets/images/zeke_hero_1781624709150.jpg");
+    galleryThumbnails.push("/assets/images/zeke_hero_1781624709150.jpg");
   }
 
   // Dynamic values depending on project scope
@@ -458,7 +458,7 @@ export default function PortfolioDetailPage({
         {/* Background Image structure with slow black-to-image fade effect */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/zeke_hero_1781624709150.jpg"
+            src="/assets/images/zeke_hero_1781624709150.jpg"
             alt="Zeke engineering structural frame"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center opacity-30 grayscale"

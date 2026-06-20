@@ -21,7 +21,7 @@ export default function ProblemSolution() {
               
               <div className="relative bg-industrial-black p-2 shadow-2xl overflow-hidden lg:h-full lg:flex lg:flex-col lg:flex-1">
                 <img
-                  src="/src/assets/images/zeke_problem_1781624780339.jpg"
+                  src="/assets/images/zeke_problem_1781624780339.jpg"
                   alt="Industrial architectural frustration problems"
                   referrerPolicy="no-referrer"
                   className="w-full h-auto lg:h-full object-cover aspect-[4/3] lg:aspect-auto lg:flex-grow filter grayscale group-hover:grayscale-0 transition-all duration-500"
@@ -187,7 +187,7 @@ export default function ProblemSolution() {
               
               <div className="relative bg-industrial-black p-2 shadow-2xl overflow-hidden lg:h-full lg:flex lg:flex-col lg:flex-1">
                 <img
-                  src="/src/assets/images/zeke_solution_1781624797540.jpg"
+                  src="/assets/images/zeke_solution_1781624797540.jpg"
                   alt="Zeke absolute design synergy solutions"
                   referrerPolicy="no-referrer"
                   className="w-full h-auto lg:h-full object-cover aspect-[4/3] lg:aspect-auto lg:flex-grow group-hover:scale-105 transition-transform duration-500"
